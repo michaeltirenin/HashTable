@@ -12,6 +12,8 @@
 		F2B7985119B6E178009737AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B7984F19B6E178009737AC /* Main.storyboard */; };
 		F2B7985319B6E178009737AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B7985219B6E178009737AC /* Images.xcassets */; };
 		F2B7985F19B6E178009737AC /* HashTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B7985E19B6E178009737AC /* HashTableTests.swift */; };
+		F2B7986919B6E185009737AC /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B7986819B6E185009737AC /* HashTable.swift */; };
+		F2B7986B19B6E18F009737AC /* HashBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B7986A19B6E18F009737AC /* HashBucket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		F2B7985819B6E178009737AC /* HashTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B7985D19B6E178009737AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B7985E19B6E178009737AC /* HashTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTableTests.swift; sourceTree = "<group>"; };
+		F2B7986819B6E185009737AC /* HashTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
+		F2B7986A19B6E18F009737AC /* HashBucket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashBucket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				F2B7984F19B6E178009737AC /* Main.storyboard */,
 				F2B7985219B6E178009737AC /* Images.xcassets */,
 				F2B7984919B6E178009737AC /* Supporting Files */,
+				F2B7986819B6E185009737AC /* HashTable.swift */,
+				F2B7986A19B6E18F009737AC /* HashBucket.swift */,
 			);
 			path = HashTable;
 			sourceTree = "<group>";
@@ -209,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2B7984E19B6E178009737AC /* ViewController.swift in Sources */,
+				F2B7986B19B6E18F009737AC /* HashBucket.swift in Sources */,
+				F2B7986919B6E185009737AC /* HashTable.swift in Sources */,
 				F2B7984C19B6E178009737AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
